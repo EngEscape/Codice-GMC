@@ -1,6 +1,6 @@
 self.addEventListener('install', function(e) {
   e.waitUntil(
-    caches.open('codice-buick').then(function(cache) {
+    caches.open('codice-GMC').then(function(cache) {
       return cache.addAll([
         'index.html',
         'js/app.js',
